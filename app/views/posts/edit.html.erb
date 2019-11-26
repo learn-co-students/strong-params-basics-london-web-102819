@@ -2,5 +2,6 @@
   <label>Post title:</label><br>
   <%= f.text_field :title %><br>
 
-  <%= f.submit %>
+  <%= f.submit"Update Post" %>
 <% end %>
+<%=session[:post_params] if session[:post_params]%>
